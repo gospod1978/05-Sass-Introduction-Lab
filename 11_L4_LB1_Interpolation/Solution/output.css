@@ -1,0 +1,15 @@
+.main {
+  width: 80%;
+  margin: 0 auto;
+}
+.main_p {
+  font-weight: 700;
+}
+.main_p:hover {
+  color: pink;
+}
+.main_p {
+  color: red;
+}
+
+/*# sourceMappingURL=output.css.map */

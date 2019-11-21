@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #272727;
+  color: #fff;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 80%;
+  margin: 0 auto;
+}
+.main .main_p {
+  font-weight: 700;
+}
+.main .main_p:hover {
+  color: pink;
+}
+@media (max-width: 800px) {
+  .main {
+    flex-direction: column;
+  }
+}
+@media (max-width: 1000px) {
+  .main {
+    background: blue;
+  }
+}
+@media (min-width: 1200px) {
+  .main {
+    background: yellow;
+  }
+}
+
+.light {
+  background: white;
+  color: black;
+}
+
+/*# sourceMappingURL=style.css.map */
